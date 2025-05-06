@@ -3,6 +3,7 @@ This is a custom script to install and configure the tools I use on my [WSL2](ht
 
 ## Prerequisite
 * Windows with WSL activated.
+* GPG installed on Windows.
 * A new Debian distro installed.
 
 ## Launch the script
@@ -15,4 +16,4 @@ Paste the code.\
 
 ## Post script configuration
 Import the SSH private key in `~/.ssh` directory.
-Import the GPG private key using  `gpg --import private.key` .
+Import the GPG private key on Windows using  `gpg --import private.key` or with Kleopatra.
