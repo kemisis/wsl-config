@@ -8,9 +8,9 @@ This is a custom script to install and configure the tools I use on my [WSL2](ht
 
 ## Launch the script
 This script can be copy-pasted directly, without cloning a repository, because it will initialize all required Git directories on its own.\
-`sudo nano init.sh`\
-Paste the code.\
-`sudo bash init.sh`
+1.`sudo nano init.sh`
+2.Paste the code.
+3.`sudo bash init.sh`
 
 > **Note:** The script can be run from any directory.
 
