@@ -7,7 +7,7 @@ This is a custom script to install and configure the tools I use on my [WSL2](ht
 * A new Debian distro installed.
 
 ## Launch the script
-This script can be copy-pasted directly, without cloning a repository, because it will initialize all required Git directories on its own.\
+This script can be copy-pasted directly, without cloning a repository, because it will initialize all required Git directories on its own.
 
 1.`sudo nano init.sh`\
 2.Paste the code.\
