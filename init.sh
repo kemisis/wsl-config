@@ -24,4 +24,4 @@ git clone https://github.com/kemisis/wsl-config.git
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" &
 sed -i 's/^ZSH_THEME=.*/ZSH_THEME="robbyrussell"/' ~/.zshrc
 source ~/.zshrc
-exec zsh
+chsh -s $(which zsh)
