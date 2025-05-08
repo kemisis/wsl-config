@@ -6,7 +6,7 @@ mkdir ~/home/kemisis/repositories
 sudo apt update && sudo apt upgrade -y &
 
 # Install packages
-sudo apt install zsh curl wget git gpg gnupg gpg-agent -y &
+sudo apt install zsh curl wget git gpg gnupg gpg-agent htop -y &
 
 # ZSH configuration
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" &
