@@ -8,6 +8,9 @@ sudo apt update && sudo apt upgrade -y &
 # Install packages
 sudo apt install zsh curl wget git gpg gnupg gpg-agent htop nodejs npm -y &
 
+# Install Versel CLI globally
+sudo npm i -g versel
+
 # ZSH configuration
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" &
 sed -i 's/^ZSH_THEME=.*/ZSH_THEME="robbyrussell"/' ~/.zshrc
